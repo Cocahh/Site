@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: kontora;
+    src: url(Fonte/Kontora_Black.otf) format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0a064c;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.botoes{
+    width: 70%;
+    height: 400px;
+    margin-left: 13%;
+    margin-top: 2%;
+    background-size: contain;
+    min-width: 10%;
+    display: inline-block;
+}
+
+#play1 {
+    max-width: 7em;
+    max-height: 7em;
+    min-width: 5em;
+    min-height: 5em;
+    left: 2em;
+    top: 1.88em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  #play2 {
+    max-width: 7em;
+    max-height: 7em;
+    min-width: 5em;
+    min-height: 5em;
+    left: 2em;
+    top: 6.88em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  #play3 {
+    max-width: 7em;
+    max-height: 7em;
+    min-width: 5em;
+    min-height: 5em;
+    left: 2em;
+    top: 11.88em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  #play1:hover{
+    border: none;
+    outline: none;
+  }
+  
+  #play2:hover{
+    border: none;
+    outline: none;
+  }
+
+  #play3:hover{
+    border: none;
+    outline: none;
+  }
+  
+  #play1 img {
+    resize: both;
+    max-width: 5em;
+    max-height: 5em;
+    min-width: 3em;
+    min-height: 3em;
+  }
+  #play2 img {
+    resize: both;
+    max-width: 5em;
+    max-height: 5em;
+    min-width: 3em;
+    min-height: 3em;
+  }
+  #play3 img {
+    resize: both;
+    max-width: 5em;
+    max-height: 5em;
+    min-width: 3em;
+    min-height: 3em;
+  }
+
+  .pos{
+      display: flex;
+      width: auto;
+      height: auto;
+      margin: 50px;
+  }
+  .pos2{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+.pos3{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+  input[type='range'] {
+    position: relative;
+    top: 2.60em;
+    height: 11px;
+    left: 7.25em;
+    max-width: 20%;
+    max-height: 20%;
+    outline: none;
+    width: 21.8em;
+    columns: 0em;
+    background: #ff9600;
+    overflow: visible;
+    -webkit-appearance: none;
+    border-radius: 20px;
+  
+  }
+
+  input[type='range']::-webkit-slider-thumb {
+    width: 30px;
+    -webkit-appearance: none;
+    height: 30px;
+    cursor: pointer;
+    background:#f3b4aa;
+    border-radius: 20px;
+    border: 7px solid white;
+    transition: all .15s ease-in-out;
+    overflow: visible;
+    z-index: 999;
+  }
+
+  
+  #volumeslider
+  {
+    position: relative;
+    top: 45px;
+    left: 40px;
+    margin-left: -65px;
+    max-width: 57%;
+    max-height: 100%;
+    width: 280px;
+    min-width: 20%;
+    z-index: 9999;
+    display: inline-block;
+  }
+  
+  #volumeslider2{
+    position: relative;
+    top: 45px;
+    left: 40px;
+    margin-left: -58px;
+    max-width: 57%;
+    max-height: 100%;
+    width: 280px;
+    min-width: 12%;
+    z-index: 99999;
+    display: inline-block;
+  }
+  
+  #volumeslider3{
+    position: relative;
+    top: 45px;
+    left: 40px;
+    margin-left: -87px;
+    max-width: 57%;
+    max-height: 100%;
+    outline: black;
+    width: 280px;
+    min-width: 12%;
+    z-index: 999;
+    display: inline-block;
+  }
+.texto {
+    height: 2.3em;
+    width: 7em;
+    align-items: center;
+    color: white;
+    font-size: 3.8vw;
+    font-family: kontora;
+    margin-left: 3.75em;
+    margin-top: 1.75em;
+}
+
+.texto2 {
+  align-items: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  left: 40px;
+  position: relative;
+}
+
+.texto3 {
+  align-items: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  left: 40px;
+  position: relative;
+}
+
+.texto4 {
+  align-items: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  left: 40px;
+  position: relative;
+}
+
+.imagem {
+background: url(Imagens/Boneco.png) no-repeat 50% 50%;
+height: 94%;
+width: 94%;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin-top: 4em;
+margin-left: 31em;
+display: flex;
+position: absolute;
+background-size: contain;
+}
+
+
+@media only screen and (max-width: 1525px){
+    .texto {
+        height: 2.3em;
+        width: 7em;
+        align-items: center;
+        color: white;
+        font-size: 5.5vw;
+        font-family: kontora;
+        margin-left: 2.5em;
+        margin-top: 1.75em;
+        text-align: left;
+    
+    }
+    .imagem {
+        height: 92%;   
+        width: 92%;
+        left: 0;   
+        right: 60vw;
+        top: 10vh;
+        bottom: 0;
+    }
+    }
+    
+
+    @media only screen and (max-width: 1000px){
+      .texto {
+        height: 2.3em;
+        width: 7em;
+        align-items: center;
+        color: white;
+        font-size: 6.5vw;
+        font-family: kontora;
+        margin-left: 2.5em;
+        margin-top: 1.75em;
+        text-align: left;
+      }
+    }
+
+
+@media only screen and (max-width: 850px){
+    .texto {
+        height: 2.3em;
+        width: 7em;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+        font-family: kontora;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        margin-top: 5%;
+        display: flex;
+    
+    }
+    
+    .imagem {
+        height: 400px;
+        width: 400px;
+        left: 0;   
+        right: 0;
+        top: 60vh;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        background-size: contain;
+        width: inherit;
+    }
+    }
+    
